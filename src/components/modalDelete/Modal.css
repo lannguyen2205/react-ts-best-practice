@@ -1,0 +1,144 @@
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vW;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+  }
+
+  .modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  
+  .modal-container {
+    position: relative;
+    width: 534px;
+    height: 511px;
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    background: #ffffff;
+    box-shadow: 0px 4px 26px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    cursor: auto;
+  }
+  
+  .modal-close {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    color: #C1C0C0;
+    top: 20px;
+    right: 20px;
+  }
+
+  .modal-close:hover {
+    color: #F05E5E;
+    cursor: pointer;
+  }
+  
+  .modal-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;  
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    border: 4px solid rgba(240, 94, 94, 1);
+    border-radius: 50%;
+  }
+  
+  .close-xmark {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(240, 94, 94, 1);
+    font-size: 50px;
+  }
+  
+  .modal-title {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #4A4A4A;
+  
+  }
+  
+  .modal-desc {
+    position: absolute;
+    top: 55%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #6A6A6A;
+    padding: 0 105px;
+  }
+  
+  .modal-btn-list {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    justify-content: space-evenly;
+    
+  }
+  
+  .box-btn {
+    width: 143px;
+    height: 52px;  
+    border: none; 
+  }
+  
+  .text-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  
+  .close-btn {
+    color: #000000;
+    background: #E4DADA;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    opacity: .8;
+  }
+  
+  
+  .delete-btn {
+    color: #FFFFFF;
+    background: #F05E5E;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .delete-btn:hover {
+    opacity: .8;
+  }
+  

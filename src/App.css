@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: "SVN-Segoe UI";
+  }
+
+  :root {
+    background-color:  #E5E5E5;
+    font-family: 'Roboto';
+  }
